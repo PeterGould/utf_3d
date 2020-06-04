@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//chrome launch path: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=5500
+
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+           // "port":5501,
+           // "url": "localhost:5501/web_app/src/check_cruise/check_report.html",
+           // "url": "localhost:5501/web_app/src/cruise_segmenter/test.html",
+           "url": "localhost:5500/index.html",
+          /* "runtimeArgs": [
+                "--user-data-dir",
+                "--remote-debugging-port=5501"
+              ],
+            */ 
+             // "sourceMaps": true,
+              "webRoot": "${workspaceRoot}"
+           /* "webRoot": "${workspaceRoot}"
+           ,"runtimeArgs": [
+                "--remote-debugging-port=5501"
+                ]*/
+        }
+    ]
+}
